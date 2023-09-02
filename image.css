@@ -1,0 +1,88 @@
+ .grid-example {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 100px;
+   column-gap: 50px;
+   row-gap: 50;
+   z-index: 2;
+   margin-top: 70px;
+  
+ }
+  
+   .c-r-7 {
+     width: 180px;
+   }
+
+   .rash-scores {
+     width: 200px;
+     height: 220px;
+     object-fit: cover;
+   }
+
+   .first-image-preview {
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     width: 300px;
+     margin-right: 12px;
+   }
+
+   .for-horizontal {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin-top: 12px;
+   }
+
+   .download1 {
+     display: inline-block;
+     vertical-align: top;
+   }
+
+   .download-button {
+     background-color: green;
+     color: white;
+     font-weight: bold;
+     border: 2px solid yellow;
+     border-radius: 10px;
+     padding: 7px;
+   }
+
+   .image-description {
+     display: inline-block;
+     width: 210px
+   }
+
+   .image-title {
+     margin-top: 0px;
+   }
+
+  .second-image-preview {
+   display: inline-block;
+   vertical-align: top;
+   width: 300px;
+  }
+
+  .download2 {
+   display: inline-block;
+   vertical-align: top;
+  }
+
+  .second-d-button {
+     background-color: green;
+     color: white;
+     font-weight: bold;
+     border: 2px solid yellow;
+     border-radius: 10px;
+     padding: 7px;
+   
+  }
+
+  .second-preview-description {
+   display: inline-block;
+   width: 210px;
+  }
+
+  .for-second-horizontal {
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+    margin-top: 20px;
+  }
